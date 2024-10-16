@@ -4,6 +4,18 @@
  * @link https://github.com/emmanuel-lacerd4/
  */
 
+// Registrar o Service Worker >>>>>>>>>>>>>>>>>>>
+// Se o Service Worker estiver disponível no navegador
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker
+        .register('/sw.js')
+        .then(() => {
+            console.log("Servicer Worker registrado.")
+        })
+}
+
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
 function calcular() {
     // pegar valores dos inputs
     let gasolina = Number(document.getElementById('gasolina').value)
@@ -16,5 +28,4 @@ function calcular() {
     } else {
         document.getElementById("status").src = "./img/gasolina.png"
     }
-
 }

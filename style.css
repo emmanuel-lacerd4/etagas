@@ -35,10 +35,10 @@ p {
 input {
     width: 70px;
     margin: 3px 0px 3px 15px;
-    padding: 10px;   
+    padding: 10px;
     font-size: 1.2em;
     border: 1px solid #a1a1a1;
-    border-radius: 5px;    
+    border-radius: 5px;
 }
 
 hr {
