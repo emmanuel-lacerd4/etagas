@@ -1,5 +1,5 @@
 # Etagas
-Calculo do combustível mais vantajoso.
+Cálculo do combustível mais vantajoso.
 
 ## Author
 Emmanuel L. Nogueira
